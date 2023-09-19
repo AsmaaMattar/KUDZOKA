@@ -1,0 +1,345 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  overflow: auto;
+  
+}
+/*start navbar*/
+nav{
+  overflow: hidden;
+  
+}
+
+.nav-left{
+  
+    float: none;
+    display: flex;
+    margin-left: 30px;
+    position: absolute;
+    top: 10%;
+
+}
+
+.logo{
+  position: relative;
+  overflow: hidden;
+  top: 0px;
+  width: 118px;
+  height: 118px
+}
+ 
+nav a{
+    color: black;
+    width: 50%;
+    color: black;
+    margin-top: 0%;
+
+}
+ul{
+  overflow: auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+li{
+  margin-right: 30px;
+}
+.active{
+  text-decoration: underline;
+}
+  
+
+.nav-right{
+  float: none;
+  display: flex;
+  margin-left: 30px;
+  position: absolute;
+  top: 50px;
+  right: 7%;
+
+
+}
+
+.btn{
+width: 75px;
+height: 25px;
+border-radius: 30px;
+box-shadow: 80px;
+border: none;
+background-color:white
+}
+/*end navbar*/
+
+/*start sec1*/
+section1.BG img{
+  position: relative;}
+
+  .BG img{
+  width: 100%;
+  height: 100vh;
+
+}
+.text{
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+  
+p1{
+  font-size: xxx-large;
+
+}
+p2{
+  font-size: x-large;
+  text-size-adjust: 40%;
+
+}
+p3{
+  font-size: x-large;
+
+}
+
+
+.heart{
+  position: absolute;
+  overflow: hidden;
+
+  top: 20px;
+  right: 0px; 
+  width: 55%;
+  height: 100%;
+  
+}
+.man-with-box{
+  overflow: hidden;
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  width: 20%;
+  height: 500px;
+}
+.clouds{
+  overflow: hidden;
+  position: absolute;
+  top: 350px;
+  right:10%;
+  width: 400px;
+  height: 400px;
+}
+.waves{
+  overflow: hidden;
+  position: absolute;
+  top: 40%;
+  right: 25%;
+  width: 1000px;
+  height: 300px;
+  
+
+}
+/*end sec1*/
+/*start sec2*/
+section .sec2{
+  overflow: hidden;
+
+}
+.sec2 div.img1{
+  position: relative;
+  top: 50px;
+  left: 200px;
+  right: 100px;
+  width: 75%;
+  height: 40%;
+}
+.img2{
+  overflow: hidden;
+  position: absolute;
+  top: 680px;
+  left: 100px;
+  width:200px;
+  text-align:center;
+  display:block;
+  float:left;}
+
+  
+.img3{
+  overflow: hidden;
+  position: absolute;
+  top: 720px;
+  left: 500px;
+  width:200px;
+  text-align:center;
+  display:block;
+  float:left;}
+
+  .img4{
+    overflow: hidden;
+    position: absolute;
+    top: 950px;
+    left: 850px;
+    width:200px;
+    text-align:center;
+    display:block;
+    float:left;}
+    
+   
+
+      /* Container holding the image and the text */
+.container-img5 {
+  position: relative;
+  right: 400px;
+  text-align: center;
+  color: white;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: larger;
+}
+/*end sec2*/
+/*start sec3*/
+.sec3{
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  position: relative;
+  left: 20%;
+  right: 20%;
+}
+
+
+
+.sec4{
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/footer.png);
+  height:400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 0px;
+}
+
+ #footer-img1{
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  position: relative;
+ }
+ #footer-img2{
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  right: 15%;
+  bottom: 0%;
+ }
+ 
+ .footer-left{
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  float: left;
+ }
+  
+ 
+ .first{
+  display: flex;
+ }
+
+  .foot-icon1{
+    border: 1px solid black;
+    width: 150px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px
+    
+  }
+  .foot-icon1{
+    margin-right: 20px;}
+
+  
+  .foot-icon1 .btn2{
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: white;
+    width: 70%;
+    
+  }
+
+  .foot-icon2{
+    border: 1px solid black;
+    width: 150px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px
+  }
+  
+  .foot-icon2 .btn3{
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: white;
+    width: 70%;
+    
+  }
+  .social-icons{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .instgram-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+  }
+  .whatsApp-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+  }
+  
+  .footer-links{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+.active2{
+  color: white;
+  text-decoration: none;
+}
+.Services2{
+  color: white;
+
+}
+
+.About-Us2{
+  color: white;
+
+}
+.Help-Center2{
+  color: white;
+
+}
